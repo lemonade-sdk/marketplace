@@ -1,0 +1,10 @@
+{
+  "id": "mindcraft",
+  "name": "MindCraft",
+  "description": "Use Lemonade LLMs as a Minecraft agent for in-game AI assistance",
+  "category": ["creative"],
+  "links": {
+    "app": "https://github.com/kolbytn/mindcraft",
+    "guide": "https://lemonade-server.ai/docs/server/apps/mindcraft/"
+  }
+}

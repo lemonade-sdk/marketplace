@@ -1,0 +1,10 @@
+{
+  "id": "iterate-ai",
+  "name": "Iterate.ai",
+  "description": "Enterprise AI platform for building and deploying AI solutions",
+  "category": ["end-user"],
+  "rank": 10,
+  "links": {
+    "app": "https://www.iterate.ai/"
+  }
+}

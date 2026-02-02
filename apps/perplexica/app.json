@@ -1,0 +1,9 @@
+{
+  "id": "perplexica",
+  "name": "Perplexica",
+  "description": "Open-source AI search engine with local LLM support",
+  "category": ["chat"],
+  "links": {
+    "app": "https://github.com/ItzCrazyKns/Perplexica"
+  }
+}

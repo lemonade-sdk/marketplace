@@ -1,0 +1,10 @@
+{
+  "id": "deep-tutor",
+  "name": "Deep Tutor",
+  "description": "AI-powered tutoring platform for personalized learning experiences",
+  "category": ["end-user"],
+  "rank": 9,
+  "links": {
+    "app": "https://deeptutor.knowhiz.us/"
+  }
+}

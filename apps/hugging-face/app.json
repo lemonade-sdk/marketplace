@@ -1,0 +1,9 @@
+{
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "description": "Browse and discover models compatible with Lemonade on Hugging Face Hub",
+  "category": ["end-user"],
+  "links": {
+    "app": "https://huggingface.co/models?apps=lemonade&sort=trending"
+  }
+}

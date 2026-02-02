@@ -1,0 +1,10 @@
+{
+  "id": "morphik",
+  "name": "Morphik",
+  "description": "AI development platform with local inference support via Lemonade",
+  "category": ["end-user"],
+  "links": {
+    "app": "https://www.morphik.ai/",
+    "guide": "https://www.morphik.ai/docs/local-inference#lemonade"
+  }
+}

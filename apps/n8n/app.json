@@ -1,0 +1,11 @@
+{
+  "id": "n8n",
+  "name": "n8n",
+  "description": "Workflow automation platform with native Lemonade integration for AI-powered automations",
+  "category": ["automation"],
+  "rank": 2,
+  "links": {
+    "app": "https://n8n.io/",
+    "guide": "https://n8n.io/integrations/lemonade-model/"
+  }
+}

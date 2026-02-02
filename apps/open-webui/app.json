@@ -1,0 +1,12 @@
+{
+  "id": "open-webui",
+  "name": "Open WebUI",
+  "description": "Feature-rich web interface for chatting with LLMs locally",
+  "category": ["chat"],
+  "rank": 1,
+  "links": {
+    "app": "https://github.com/open-webui/open-webui",
+    "guide": "https://lemonade-server.ai/docs/server/apps/open-webui/",
+    "video": "https://www.youtube.com/watch?v=yZs-Yzl736E"
+  }
+}

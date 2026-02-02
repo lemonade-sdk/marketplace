@@ -1,0 +1,11 @@
+{
+  "id": "ai-toolkit",
+  "name": "Microsoft AI Toolkit",
+  "description": "Experiment with Lemonade LLMs in VS Code using Microsoft's AI Toolkit",
+  "category": ["code"],
+  "links": {
+    "app": "https://learn.microsoft.com/en-us/windows/ai/toolkit/",
+    "guide": "https://lemonade-server.ai/docs/server/apps/ai-toolkit/",
+    "video": "https://youtu.be/JecpotOZ6qo?si=WxWVQhUBCJQgE6vX"
+  }
+}

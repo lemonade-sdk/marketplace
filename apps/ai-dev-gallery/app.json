@@ -1,0 +1,10 @@
+{
+  "id": "ai-dev-gallery",
+  "name": "Microsoft AI Dev Gallery",
+  "description": "Microsoft's showcase application for exploring AI capabilities with Lemonade",
+  "category": ["end-user"],
+  "links": {
+    "app": "https://aka.ms/ai-dev-gallery",
+    "guide": "https://lemonade-server.ai/docs/server/apps/ai-dev-gallery/"
+  }
+}

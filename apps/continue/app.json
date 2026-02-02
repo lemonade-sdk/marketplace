@@ -1,0 +1,12 @@
+{
+  "id": "continue",
+  "name": "Continue",
+  "description": "Open-source AI code assistant for VS Code and JetBrains",
+  "category": ["code"],
+  "rank": 5,
+  "links": {
+    "app": "https://www.continue.dev/",
+    "guide": "https://lemonade-server.ai/docs/server/apps/continue/",
+    "video": "https://youtu.be/bP_MZnDpbUc?si=hRhLbLEV6V_OGlUt"
+  }
+}

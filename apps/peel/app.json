@@ -1,0 +1,11 @@
+{
+  "id": "peel",
+  "name": "PEEL",
+  "description": "PowerShell extension for using Local LLMs in Windows PowerShell",
+  "category": ["code"],
+  "links": {
+    "app": "https://github.com/lemonade-apps/peel",
+    "guide": "https://github.com/lemonade-apps/peel?tab=readme-ov-file#installation",
+    "video": "https://youtu.be/A-8QYktB0Io?si=5LiD3fZDlmaTecpV"
+  }
+}

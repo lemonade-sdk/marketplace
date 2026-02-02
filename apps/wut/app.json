@@ -1,0 +1,10 @@
+{
+  "id": "wut",
+  "name": "wut",
+  "description": "Terminal assistant that uses Lemonade LLMs to explain errors and commands",
+  "category": ["code"],
+  "links": {
+    "app": "https://github.com/shobrook/wut",
+    "guide": "https://lemonade-server.ai/docs/server/apps/wut/"
+  }
+}

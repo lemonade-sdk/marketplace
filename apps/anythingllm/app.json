@@ -1,0 +1,10 @@
+{
+  "id": "anythingllm",
+  "name": "AnythingLLM",
+  "description": "All-in-one AI app for running agents locally with Lemonade",
+  "category": ["chat"],
+  "links": {
+    "app": "https://anythingllm.com/",
+    "guide": "https://lemonade-server.ai/docs/server/apps/anythingLLM/"
+  }
+}
