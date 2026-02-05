@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-02-05T16:05:37.189558+00:00",
+  "generated": "2026-02-05T21:34:56.933802+00:00",
   "apps": [
     {
       "id": "continue",
@@ -35,7 +35,7 @@
     {
       "id": "dify",
       "name": "Dify",
-      "description": "Build node-based AI agents and RAG workflows powered by Lemonade",
+      "description": "Build node-based AI agents and RAG workflows",
       "category": [
         "automation"
       ],
@@ -49,10 +49,10 @@
     },
     {
       "id": "gaia",
-      "name": "Gaia",
-      "description": "Application for running LLMs locally with ChatBot, YouTube Agent, and more",
+      "name": "GAIA",
+      "description": "Python SDK for designing multi-modal local-first agents",
       "category": [
-        "chat"
+        "automation"
       ],
       "date_added": "2025-02-05",
       "links": {
@@ -66,7 +66,7 @@
     {
       "id": "github-copilot",
       "name": "GitHub Copilot",
-      "description": "Use Lemonade LLMs with VS Code Copilot Extension for local AI coding assistance",
+      "description": "VS Code Copilot Extension for local AI coding assistance",
       "category": [
         "code"
       ],
@@ -82,7 +82,7 @@
     {
       "id": "infinity-arcade",
       "name": "Infinity Arcade",
-      "description": "AI-powered game platform for creating and playing infinite games",
+      "description": "Generate and play infinite remixes of retro-style arcade games",
       "category": [
         "creative"
       ],
@@ -98,7 +98,7 @@
       "name": "Iterate.ai",
       "description": "Enterprise AI platform for building and deploying AI solutions",
       "category": [
-        "app"
+        "automation"
       ],
       "date_added": "2025-02-05",
       "links": {
@@ -143,8 +143,7 @@
       "name": "OpenHands",
       "description": "AI-powered software development agent that can write code, fix bugs, and more",
       "category": [
-        "code",
-        "automation"
+        "code"
       ],
       "date_added": "2025-02-05",
       "links": {
@@ -157,7 +156,7 @@
     {
       "id": "anythingllm",
       "name": "AnythingLLM",
-      "description": "All-in-one AI app for running agents locally with Lemonade",
+      "description": "All-in-one AI app for running agents locally",
       "category": [
         "chat"
       ],
@@ -172,7 +171,7 @@
     {
       "id": "codegpt",
       "name": "CodeGPT",
-      "description": "AI coding assistant for VS Code with local LLM support via Lemonade",
+      "description": "AI coding assistant for VS Code with local LLM support",
       "category": [
         "code"
       ],
@@ -201,7 +200,7 @@
     {
       "id": "ai-dev-gallery",
       "name": "Microsoft AI Dev Gallery",
-      "description": "Microsoft's showcase application for exploring AI capabilities with Lemonade",
+      "description": "Microsoft's showcase application for exploring AI capabilities",
       "category": [
         "app"
       ],
@@ -216,7 +215,7 @@
     {
       "id": "ai-toolkit",
       "name": "Microsoft AI Toolkit",
-      "description": "Experiment with Lemonade LLMs in VS Code using Microsoft's AI Toolkit",
+      "description": "Experiment at scale with LLMs in a VS Code extension",
       "category": [
         "code"
       ],
@@ -230,24 +229,9 @@
       "pinned": false
     },
     {
-      "id": "mindcraft",
-      "name": "MindCraft",
-      "description": "Use Lemonade LLMs as a Minecraft agent for in-game AI assistance",
-      "category": [
-        "creative"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://github.com/kolbytn/mindcraft",
-        "guide": "https://lemonade-server.ai/docs/server/apps/mindcraft/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/assets/placeholder.png",
-      "pinned": false
-    },
-    {
       "id": "morphik",
       "name": "Morphik",
-      "description": "AI development platform with local inference support via Lemonade",
+      "description": "Centralize business knowledge and build reliable AI agents to automate tasks",
       "category": [
         "app"
       ],
@@ -256,23 +240,7 @@
         "app": "https://www.morphik.ai/",
         "guide": "https://www.morphik.ai/docs/local-inference#lemonade"
       },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/assets/placeholder.png",
-      "pinned": false
-    },
-    {
-      "id": "peel",
-      "name": "PEEL",
-      "description": "PowerShell extension for using Local LLMs in Windows PowerShell",
-      "category": [
-        "code"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://github.com/lemonade-apps/peel",
-        "guide": "https://github.com/lemonade-apps/peel?tab=readme-ov-file#installation",
-        "video": "https://youtu.be/A-8QYktB0Io?si=5LiD3fZDlmaTecpV"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/assets/placeholder.png",
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/morphik/logo.png",
       "pinned": false
     },
     {
@@ -287,21 +255,6 @@
         "app": "https://github.com/ItzCrazyKns/Perplexica"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/perplexica/logo.png",
-      "pinned": false
-    },
-    {
-      "id": "wut",
-      "name": "wut",
-      "description": "Terminal assistant that uses Lemonade LLMs to explain errors and commands",
-      "category": [
-        "code"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://github.com/shobrook/wut",
-        "guide": "https://lemonade-server.ai/docs/server/apps/wut/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/assets/placeholder.png",
       "pinned": false
     }
   ],
