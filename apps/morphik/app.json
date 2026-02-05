@@ -1,7 +1,7 @@
 {
   "id": "morphik",
   "name": "Morphik",
-  "description": "AI development platform with local inference support via Lemonade",
+  "description": "Centralize business knowledge and build reliable AI agents to automate tasks",
   "category": ["app"],
   "date_added": "2025-02-05",
   "links": {

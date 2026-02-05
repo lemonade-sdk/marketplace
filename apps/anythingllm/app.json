@@ -1,7 +1,7 @@
 {
   "id": "anythingllm",
   "name": "AnythingLLM",
-  "description": "All-in-one AI app for running agents locally with Lemonade",
+  "description": "All-in-one AI app for running agents locally",
   "category": ["chat"],
   "date_added": "2025-02-05",
   "links": {

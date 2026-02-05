@@ -1,7 +1,7 @@
 {
   "id": "dify",
   "name": "Dify",
-  "description": "Build node-based AI agents and RAG workflows powered by Lemonade",
+  "description": "Build node-based AI agents and RAG workflows",
   "category": ["automation"],
   "date_added": "2025-02-05",
   "links": {

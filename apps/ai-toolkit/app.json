@@ -1,7 +1,7 @@
 {
   "id": "ai-toolkit",
   "name": "Microsoft AI Toolkit",
-  "description": "Experiment with Lemonade LLMs in VS Code using Microsoft's AI Toolkit",
+  "description": "Experiment at scale with LLMs in a VS Code extension",
   "category": ["code"],
   "date_added": "2025-02-05",
   "links": {

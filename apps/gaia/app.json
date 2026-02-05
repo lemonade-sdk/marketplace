@@ -1,8 +1,8 @@
 {
   "id": "gaia",
-  "name": "Gaia",
-  "description": "Application for running LLMs locally with ChatBot, YouTube Agent, and more",
-  "category": ["chat"],
+  "name": "GAIA",
+  "description": "Python SDK for designing multi-modal local-first agents",
+  "category": ["automation"],
   "date_added": "2025-02-05",
   "links": {
     "app": "https://github.com/amd/gaia",

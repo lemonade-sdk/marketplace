@@ -1,7 +1,7 @@
 {
   "id": "codegpt",
   "name": "CodeGPT",
-  "description": "AI coding assistant for VS Code with local LLM support via Lemonade",
+  "description": "AI coding assistant for VS Code with local LLM support",
   "category": ["code"],
   "date_added": "2025-02-05",
   "links": {

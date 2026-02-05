@@ -2,7 +2,7 @@
   "id": "openhands",
   "name": "OpenHands",
   "description": "AI-powered software development agent that can write code, fix bugs, and more",
-  "category": ["code", "automation"],
+  "category": ["code"],
   "date_added": "2025-02-05",
   "links": {
     "app": "https://openhands.dev/",
