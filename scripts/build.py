@@ -19,14 +19,11 @@ CATEGORIES = [
     {"id": "code", "label": "Code"},
     {"id": "creative", "label": "Creative"},
     {"id": "automation", "label": "Automation"},
-    {"id": "end-user", "label": "End-User Apps"},
+    {"id": "app", "label": "Apps"},
 ]
 
 # Required fields in app.json
-REQUIRED_FIELDS = ["id", "name", "description", "category", "links"]
-
-# Apps with rank <= this are considered "featured"
-FEATURED_THRESHOLD = 10
+REQUIRED_FIELDS = ["id", "name", "description", "category", "links", "date_added"]
 
 
 def validate_app(app_data: dict, app_dir: str) -> list[str]:
@@ -42,11 +39,12 @@ def validate_app(app_data: dict, app_dir: str) -> list[str]:
     if "category" in app_data and not isinstance(app_data["category"], list):
         errors.append("'category' must be a list")
     
-    if "rank" in app_data:
-        if not isinstance(app_data["rank"], int):
-            errors.append("'rank' must be an integer")
-        elif app_data["rank"] > FEATURED_THRESHOLD:
-            errors.append(f"'rank' must be <= {FEATURED_THRESHOLD} (omit rank for non-featured apps)")
+    if "date_added" in app_data:
+        # Validate date format (YYYY-MM-DD)
+        try:
+            datetime.strptime(app_data["date_added"], "%Y-%m-%d")
+        except ValueError:
+            errors.append("'date_added' must be in YYYY-MM-DD format")
     
     if "links" in app_data:
         if not isinstance(app_data["links"], dict):
@@ -66,7 +64,23 @@ def find_logo(app_dir: Path) -> str | None:
     return None
 
 
-def build_apps_json(apps_dir: Path, output_path: Path) -> bool:
+def load_pinned_apps(repo_root: Path) -> set[str]:
+    """Load the list of pinned app IDs from pinned.json."""
+    pinned_path = repo_root / "pinned.json"
+    if not pinned_path.exists():
+        print(f"[WARN] No pinned.json found at {pinned_path}")
+        return set()
+    
+    try:
+        with open(pinned_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return set(data.get("pinned", []))
+    except (json.JSONDecodeError, KeyError) as e:
+        print(f"[WARN] Error reading pinned.json: {e}")
+        return set()
+
+
+def build_apps_json(apps_dir: Path, output_path: Path, pinned_ids: set[str]) -> bool:
     """Build the apps.json file from individual app.json files."""
     apps = []
     errors = []
@@ -104,8 +118,8 @@ def build_apps_json(apps_dir: Path, output_path: Path) -> bool:
             app_data["logo"] = f"{REPO_BASE_URL}/assets/placeholder.png"
             print(f"[WARN] No logo found for {app_dir.name}")
         
-        # Add derived "featured" field based on presence of rank
-        app_data["featured"] = "rank" in app_data
+        # Add derived "pinned" field based on presence in pinned.json
+        app_data["pinned"] = app_data["id"] in pinned_ids
         
         apps.append(app_data)
     
@@ -116,8 +130,21 @@ def build_apps_json(apps_dir: Path, output_path: Path) -> bool:
             print(f"   - {err}")
         return False
     
-    # Sort: featured apps by rank first, then non-featured alphabetically
-    apps.sort(key=lambda x: (0 if x.get("featured") else 1, x.get("rank", 0), x.get("name", "")))
+    # Sort: pinned apps first, then by date_added (newest first), then alphabetically by name
+    def sort_key(app):
+        is_pinned = 0 if app.get("pinned") else 1
+        # Parse date for sorting (newer dates should come first, so negate)
+        date_str = app.get("date_added", "1970-01-01")
+        try:
+            date = datetime.strptime(date_str, "%Y-%m-%d")
+            # Invert date for descending order (newer first)
+            date_sort = -date.timestamp()
+        except ValueError:
+            date_sort = 0
+        name = app.get("name", "").lower()
+        return (is_pinned, date_sort, name)
+    
+    apps.sort(key=sort_key)
     
     # Build output
     output = {
@@ -133,7 +160,7 @@ def build_apps_json(apps_dir: Path, output_path: Path) -> bool:
     
     print(f"\n[OK] Successfully generated {output_path}")
     print(f"   - {len(apps)} apps")
-    print(f"   - {len([a for a in apps if a.get('featured')])} featured")
+    print(f"   - {len([a for a in apps if a.get('pinned')])} pinned")
     
     return True
 
@@ -151,7 +178,11 @@ def main():
     
     print(f"[BUILD] Building apps.json from {apps_dir}")
     
-    success = build_apps_json(apps_dir, output_path)
+    # Load pinned apps
+    pinned_ids = load_pinned_apps(repo_root)
+    print(f"[INFO] Loaded {len(pinned_ids)} pinned apps")
+    
+    success = build_apps_json(apps_dir, output_path, pinned_ids)
     
     if not success:
         sys.exit(1)

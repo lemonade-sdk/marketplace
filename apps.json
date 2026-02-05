@@ -1,37 +1,51 @@
 {
   "version": "1.0",
-  "generated": "2026-02-02T21:44:52.293451+00:00",
+  "generated": "2026-02-05T16:01:45.077873+00:00",
   "apps": [
     {
-      "id": "open-webui",
-      "name": "Open WebUI",
-      "description": "Feature-rich web interface for chatting with LLMs locally",
+      "id": "continue",
+      "name": "Continue",
+      "description": "Open-source AI code assistant for VS Code and JetBrains",
       "category": [
-        "chat"
+        "code"
       ],
-      "rank": 1,
+      "date_added": "2025-02-05",
       "links": {
-        "app": "https://github.com/open-webui/open-webui",
-        "guide": "https://lemonade-server.ai/docs/server/apps/open-webui/",
-        "video": "https://www.youtube.com/watch?v=yZs-Yzl736E"
+        "app": "https://www.continue.dev/",
+        "guide": "https://lemonade-server.ai/docs/server/apps/continue/",
+        "video": "https://youtu.be/bP_MZnDpbUc?si=hRhLbLEV6V_OGlUt"
       },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/open-webui/logo.png",
-      "featured": true
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/continue/logo.png",
+      "pinned": true
     },
     {
-      "id": "n8n",
-      "name": "n8n",
-      "description": "Workflow automation platform with native Lemonade integration for AI-powered automations",
+      "id": "deep-tutor",
+      "name": "Deep Tutor",
+      "description": "AI-powered tutoring platform for personalized learning experiences",
+      "category": [
+        "app"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://deeptutor.knowhiz.us/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/deep-tutor/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "description": "Build node-based AI agents and RAG workflows powered by Lemonade",
       "category": [
         "automation"
       ],
-      "rank": 2,
+      "date_added": "2025-02-05",
       "links": {
-        "app": "https://n8n.io/",
-        "guide": "https://n8n.io/integrations/lemonade-model/"
+        "app": "https://dify.ai/",
+        "guide": "https://marketplace.dify.ai/plugins/langgenius/lemonade"
       },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/n8n/logo.png",
-      "featured": true
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/dify/logo.png",
+      "pinned": true
     },
     {
       "id": "gaia",
@@ -40,44 +54,14 @@
       "category": [
         "chat"
       ],
-      "rank": 3,
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://github.com/amd/gaia",
         "guide": "https://github.com/amd/gaia?tab=readme-ov-file#getting-started-guide",
         "video": "https://youtu.be/_PORHv_-atI?si=EYQjmrRQ6Zy2H0ek"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/gaia/logo.png",
-      "featured": true
-    },
-    {
-      "id": "infinity-arcade",
-      "name": "Infinity Arcade",
-      "description": "AI-powered game platform for creating and playing infinite games",
-      "category": [
-        "creative"
-      ],
-      "rank": 4,
-      "links": {
-        "app": "https://github.com/lemonade-sdk/infinity-arcade"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/infinity-arcade/logo.png",
-      "featured": true
-    },
-    {
-      "id": "continue",
-      "name": "Continue",
-      "description": "Open-source AI code assistant for VS Code and JetBrains",
-      "category": [
-        "code"
-      ],
-      "rank": 5,
-      "links": {
-        "app": "https://www.continue.dev/",
-        "guide": "https://lemonade-server.ai/docs/server/apps/continue/",
-        "video": "https://youtu.be/bP_MZnDpbUc?si=hRhLbLEV6V_OGlUt"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/continue/logo.png",
-      "featured": true
+      "pinned": true
     },
     {
       "id": "github-copilot",
@@ -86,14 +70,73 @@
       "category": [
         "code"
       ],
-      "rank": 6,
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
         "guide": "https://marketplace.visualstudio.com/items?itemName=lemonade-sdk.lemonade-sdk",
         "video": "https://www.youtube.com/watch?v=HUwGxlH3yAg"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/github-copilot/logo.png",
-      "featured": true
+      "pinned": true
+    },
+    {
+      "id": "infinity-arcade",
+      "name": "Infinity Arcade",
+      "description": "AI-powered game platform for creating and playing infinite games",
+      "category": [
+        "creative"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://github.com/lemonade-sdk/infinity-arcade"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/infinity-arcade/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "iterate-ai",
+      "name": "Iterate.ai",
+      "description": "Enterprise AI platform for building and deploying AI solutions",
+      "category": [
+        "app"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://www.iterate.ai/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/iterate-ai/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "description": "Workflow automation platform with native Lemonade integration for AI-powered automations",
+      "category": [
+        "automation"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://n8n.io/",
+        "guide": "https://n8n.io/integrations/lemonade-model/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/n8n/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "description": "Feature-rich web interface for chatting with LLMs locally",
+      "category": [
+        "chat"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://github.com/open-webui/open-webui",
+        "guide": "https://lemonade-server.ai/docs/server/apps/open-webui/",
+        "video": "https://www.youtube.com/watch?v=yZs-Yzl736E"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/open-webui/logo.png",
+      "pinned": true
     },
     {
       "id": "openhands",
@@ -103,56 +146,13 @@
         "code",
         "automation"
       ],
-      "rank": 7,
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://openhands.dev/",
         "guide": "https://lemonade-server.ai/docs/server/apps/open-hands/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/openhands/logo.png",
-      "featured": true
-    },
-    {
-      "id": "dify",
-      "name": "Dify",
-      "description": "Build node-based AI agents and RAG workflows powered by Lemonade",
-      "category": [
-        "automation"
-      ],
-      "rank": 8,
-      "links": {
-        "app": "https://dify.ai/",
-        "guide": "https://marketplace.dify.ai/plugins/langgenius/lemonade"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/dify/logo.png",
-      "featured": true
-    },
-    {
-      "id": "deep-tutor",
-      "name": "Deep Tutor",
-      "description": "AI-powered tutoring platform for personalized learning experiences",
-      "category": [
-        "end-user"
-      ],
-      "rank": 9,
-      "links": {
-        "app": "https://deeptutor.knowhiz.us/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/deep-tutor/logo.png",
-      "featured": true
-    },
-    {
-      "id": "iterate-ai",
-      "name": "Iterate.ai",
-      "description": "Enterprise AI platform for building and deploying AI solutions",
-      "category": [
-        "end-user"
-      ],
-      "rank": 10,
-      "links": {
-        "app": "https://www.iterate.ai/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/iterate-ai/logo.png",
-      "featured": true
+      "pinned": true
     },
     {
       "id": "anythingllm",
@@ -161,12 +161,13 @@
       "category": [
         "chat"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://anythingllm.com/",
         "guide": "https://lemonade-server.ai/docs/server/apps/anythingLLM/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/anythingllm/logo.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "codegpt",
@@ -175,39 +176,42 @@
       "category": [
         "code"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://codegpt.co/",
         "guide": "https://lemonade-server.ai/docs/server/apps/codeGPT/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/codegpt/logo.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "hugging-face",
       "name": "Hugging Face",
       "description": "Browse and discover models compatible with Lemonade on Hugging Face Hub",
       "category": [
-        "end-user"
+        "app"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://huggingface.co/models?apps=lemonade&sort=trending"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/hugging-face/logo.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "ai-dev-gallery",
       "name": "Microsoft AI Dev Gallery",
       "description": "Microsoft's showcase application for exploring AI capabilities with Lemonade",
       "category": [
-        "end-user"
+        "app"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://aka.ms/ai-dev-gallery",
         "guide": "https://lemonade-server.ai/docs/server/apps/ai-dev-gallery/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/ai-dev-gallery/logo.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "ai-toolkit",
@@ -216,13 +220,14 @@
       "category": [
         "code"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://learn.microsoft.com/en-us/windows/ai/toolkit/",
         "guide": "https://lemonade-server.ai/docs/server/apps/ai-toolkit/",
         "video": "https://youtu.be/JecpotOZ6qo?si=WxWVQhUBCJQgE6vX"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/ai-toolkit/logo.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "mindcraft",
@@ -231,26 +236,28 @@
       "category": [
         "creative"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://github.com/kolbytn/mindcraft",
         "guide": "https://lemonade-server.ai/docs/server/apps/mindcraft/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/assets/placeholder.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "morphik",
       "name": "Morphik",
       "description": "AI development platform with local inference support via Lemonade",
       "category": [
-        "end-user"
+        "app"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://www.morphik.ai/",
         "guide": "https://www.morphik.ai/docs/local-inference#lemonade"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/assets/placeholder.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "peel",
@@ -259,13 +266,14 @@
       "category": [
         "code"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://github.com/lemonade-apps/peel",
         "guide": "https://github.com/lemonade-apps/peel?tab=readme-ov-file#installation",
         "video": "https://youtu.be/A-8QYktB0Io?si=5LiD3fZDlmaTecpV"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/assets/placeholder.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "perplexica",
@@ -274,11 +282,12 @@
       "category": [
         "chat"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://github.com/ItzCrazyKns/Perplexica"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/perplexica/logo.png",
-      "featured": false
+      "pinned": false
     },
     {
       "id": "wut",
@@ -287,12 +296,13 @@
       "category": [
         "code"
       ],
+      "date_added": "2025-02-05",
       "links": {
         "app": "https://github.com/shobrook/wut",
         "guide": "https://lemonade-server.ai/docs/server/apps/wut/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/assets/placeholder.png",
-      "featured": false
+      "pinned": false
     }
   ],
   "categories": [
@@ -313,8 +323,8 @@
       "label": "Automation"
     },
     {
-      "id": "end-user",
-      "label": "End-User Apps"
+      "id": "app",
+      "label": "Apps"
     }
   ]
 }

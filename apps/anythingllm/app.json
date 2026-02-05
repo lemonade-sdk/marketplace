@@ -3,6 +3,7 @@
   "name": "AnythingLLM",
   "description": "All-in-one AI app for running agents locally with Lemonade",
   "category": ["chat"],
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://anythingllm.com/",
     "guide": "https://lemonade-server.ai/docs/server/apps/anythingLLM/"

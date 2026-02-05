@@ -3,7 +3,7 @@
   "name": "OpenHands",
   "description": "AI-powered software development agent that can write code, fix bugs, and more",
   "category": ["code", "automation"],
-  "rank": 7,
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://openhands.dev/",
     "guide": "https://lemonade-server.ai/docs/server/apps/open-hands/"

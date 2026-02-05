@@ -3,6 +3,7 @@
   "name": "CodeGPT",
   "description": "AI coding assistant for VS Code with local LLM support via Lemonade",
   "category": ["code"],
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://codegpt.co/",
     "guide": "https://lemonade-server.ai/docs/server/apps/codeGPT/"

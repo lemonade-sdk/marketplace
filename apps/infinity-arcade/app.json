@@ -3,7 +3,7 @@
   "name": "Infinity Arcade",
   "description": "AI-powered game platform for creating and playing infinite games",
   "category": ["creative"],
-  "rank": 4,
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://github.com/lemonade-sdk/infinity-arcade"
   }

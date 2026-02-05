@@ -3,6 +3,7 @@
   "name": "Perplexica",
   "description": "Open-source AI search engine with local LLM support",
   "category": ["chat"],
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://github.com/ItzCrazyKns/Perplexica"
   }

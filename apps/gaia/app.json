@@ -3,7 +3,7 @@
   "name": "Gaia",
   "description": "Application for running LLMs locally with ChatBot, YouTube Agent, and more",
   "category": ["chat"],
-  "rank": 3,
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://github.com/amd/gaia",
     "guide": "https://github.com/amd/gaia?tab=readme-ov-file#getting-started-guide",

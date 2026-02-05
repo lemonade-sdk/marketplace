@@ -7,6 +7,7 @@ This repository contains the app data for the [Lemonade](https://github.com/lemo
 ```
 marketplace/
 ├── apps.json              # Generated - DO NOT EDIT DIRECTLY
+├── pinned.json            # Pinned apps list (CODEOWNERS only)
 ├── apps/
 │   ├── open-webui/
 │   │   ├── app.json       # App metadata
@@ -30,6 +31,7 @@ marketplace/
   "name": "Your App Name",
   "description": "A brief description of what your app does with Lemonade",
   "category": ["code"],
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://your-app-url.com",
     "guide": "https://lemonade-server.ai/docs/server/apps/your-app/",
@@ -38,7 +40,23 @@ marketplace/
 }
 ```
 
-> **Note:** Add `"rank": N` (1-10) to make an app "featured" on the README and website front page. Omit `rank` for non-featured apps.
+### Required Fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `id` | string | Unique app identifier (lowercase, hyphenated) |
+| `name` | string | Display name of the app |
+| `description` | string | Brief description of what the app does with Lemonade |
+| `category` | string[] | Array of category IDs (see Categories below) |
+| `date_added` | string | Date the app was added, in `YYYY-MM-DD` format |
+| `links.app` | string | Primary URL to the app |
+
+### Optional Fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `links.guide` | string | URL to integration guide/documentation |
+| `links.video` | string | URL to demo/tutorial video |
 
 3. (Optional) Add a `logo.png` file (64x64 pixels recommended)
 4. Submit a pull request
@@ -51,7 +69,31 @@ marketplace/
 | `code` | Code |
 | `creative` | Creative |
 | `automation` | Automation |
-| `end-user` | End-User Apps |
+| `app` | Apps |
+
+## Pinned Apps
+
+Pinned apps appear first in the marketplace and are highlighted on the website. The list of pinned apps is managed in `pinned.json`.
+
+> **Note:** Only repository CODEOWNERS may modify `pinned.json`. External contributors should not include changes to this file in their pull requests.
+
+### pinned.json Format
+
+```json
+{
+  "pinned": [
+    "app-id-1",
+    "app-id-2"
+  ]
+}
+```
+
+## App Ordering
+
+Apps in the marketplace are ordered as follows:
+1. **Pinned apps first** - Apps listed in `pinned.json` appear at the top
+2. **By date added** - Newer apps appear before older apps
+3. **Alphabetically** - Apps with the same date are sorted by name
 
 ## Building
 
@@ -68,7 +110,6 @@ python scripts/build.py
 The generated `apps.json` is consumed by:
 - [lemonade-server.ai/marketplace](https://lemonade-server.ai/marketplace) - Web marketplace
 - Lemonade Desktop App - Embedded marketplace panel
-- README.md - Top 10 featured apps
 
 ### Fetching apps.json
 
@@ -78,6 +119,27 @@ const response = await fetch(
 );
 const data = await response.json();
 console.log(data.apps); // Array of app objects
+```
+
+### App Object Schema
+
+Each app in `data.apps` includes:
+
+```javascript
+{
+  "id": "open-webui",
+  "name": "Open WebUI",
+  "description": "Feature-rich web interface for chatting with LLMs locally",
+  "category": ["chat"],
+  "date_added": "2025-02-05",
+  "links": {
+    "app": "https://...",
+    "guide": "https://...",
+    "video": "https://..."
+  },
+  "logo": "https://raw.githubusercontent.com/.../logo.png",
+  "pinned": true  // Derived field - true if app is in pinned.json
+}
 ```
 
 ## License

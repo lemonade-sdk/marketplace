@@ -3,7 +3,7 @@
   "name": "Dify",
   "description": "Build node-based AI agents and RAG workflows powered by Lemonade",
   "category": ["automation"],
-  "rank": 8,
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://dify.ai/",
     "guide": "https://marketplace.dify.ai/plugins/langgenius/lemonade"

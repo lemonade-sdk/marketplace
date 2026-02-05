@@ -3,7 +3,7 @@
   "name": "GitHub Copilot",
   "description": "Use Lemonade LLMs with VS Code Copilot Extension for local AI coding assistance",
   "category": ["code"],
-  "rank": 6,
+  "date_added": "2025-02-05",
   "links": {
     "app": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
     "guide": "https://marketplace.visualstudio.com/items?itemName=lemonade-sdk.lemonade-sdk",
