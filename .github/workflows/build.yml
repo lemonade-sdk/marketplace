@@ -5,11 +5,13 @@ on:
     branches: [main]
     paths:
       - 'apps/**'
+      - 'pinned.json'
       - 'scripts/build.py'
   pull_request:
     branches: [main]
     paths:
       - 'apps/**'
+      - 'pinned.json'
       - 'scripts/build.py'
   workflow_dispatch:
 
@@ -44,6 +46,14 @@ jobs:
           git add apps.json
           git commit -m "Auto-generate apps.json"
           git push
+
+      - name: Trigger lemonade website update
+        if: github.event_name == 'push' && steps.check_changes.outputs.changed == 'true'
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.LEMONADE_REPO_TOKEN }}
+          repository: lemonade-sdk/lemonade
+          event-type: marketplace-updated
 
       - name: Upload apps.json artifact
         uses: actions/upload-artifact@v4
