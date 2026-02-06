@@ -1,0 +1,11 @@
+{
+  "id": "sorana-ai-workspace",
+  "name": "Sorana",
+  "description": "The Visual AI Workspace: AI groups your files on a 2D canvas, with OCR + document chat, Lemonade integration, and optional MCP file tools for agentic workflows.",
+  "category": ["productivity"],
+  "date_added": "2025-02-06",
+  "links": {
+    "app": "https://tetramatrix.github.io/Sorana/",
+    "video": "https://youtu.be/IItG9BwXkqo"
+  }
+}
