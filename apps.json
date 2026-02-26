@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-02-05T21:34:56.933802+00:00",
+  "generated": "2026-02-26T03:33:37.159378+00:00",
   "apps": [
     {
       "id": "continue",
@@ -72,8 +72,8 @@
       ],
       "date_added": "2025-02-05",
       "links": {
-        "app": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
-        "guide": "https://marketplace.visualstudio.com/items?itemName=lemonade-sdk.lemonade-sdk",
+        "app": "https://marketplace.visualstudio.com/items?itemName=lemonade-sdk.lemonade-sdk",
+        "guide": "https://admcpr.com/local-github-copilot-with-lemonade-server-on-windows",
         "video": "https://www.youtube.com/watch?v=HUwGxlH3yAg"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/github-copilot/logo.png",
