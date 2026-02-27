@@ -2,13 +2,13 @@
   "pinned": [
     "open-webui",
     "n8n",
+    "anythingllm",
     "gaia",
     "infinity-arcade",
     "continue",
     "github-copilot",
     "openhands",
     "dify",
-    "deep-tutor",
-    "iterate-ai"
+    "deep-tutor"
   ]
 }
