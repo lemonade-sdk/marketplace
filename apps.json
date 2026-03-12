@@ -1,11 +1,11 @@
 {
   "version": "1.0",
-  "generated": "2026-03-11T20:46:29.425095+00:00",
+  "generated": "2026-03-12T13:31:05.413357+00:00",
   "apps": [
     {
       "id": "anythingllm",
       "name": "AnythingLLM",
-      "description": "All-in-one AI app for running agents locally",
+      "description": "All-in-one AI application for productivity using on-device models",
       "category": [
         "chat"
       ],
