@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-03-12T13:31:05.413357+00:00",
+  "generated": "2026-03-15T05:03:50.060946+00:00",
   "apps": [
     {
       "id": "anythingllm",
@@ -107,6 +107,22 @@
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/infinity-arcade/logo.png",
       "pinned": true
+    },
+    {
+      "id": "interviewer",
+      "name": "Interviewer",
+      "description": "AI-powered interview practice application with voice-enabled mock sessions",
+      "category": [
+        "app",
+        "chat"
+      ],
+      "date_added": "2026-03-14",
+      "links": {
+        "app": "https://github.com/lemonade-sdk/interviewer",
+        "guide": "https://lemonade-server.ai/docs/server/apps/interviewer/"
+      },
+      "logo": "https://raw.githubusercontent.com/antmikinka/marketplace/main/apps/interviewer/logo.png",
+      "pinned": false
     },
     {
       "id": "n8n",
