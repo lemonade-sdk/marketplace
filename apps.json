@@ -1,7 +1,22 @@
 {
   "version": "1.0",
-  "generated": "2026-03-18T23:27:05.200058+00:00",
+  "generated": "2026-03-18T23:28:19.283102+00:00",
   "apps": [
+    {
+      "id": "fx-chatbot",
+      "name": "Firefox Chatbot",
+      "description": "Run lemonade inside your firefox browser",
+      "category": [
+        "chat"
+      ],
+      "date_added": "2025-03-17",
+      "links": {
+        "app": "https://www.firefox.com/",
+        "guide": "https://quickthoughts.ca/posts/firefox-chatback-lemonade-sdk/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/fx-chatbot/logo.png",
+      "pinned": true
+    },
     {
       "id": "anythingllm",
       "name": "AnythingLLM",
@@ -31,20 +46,6 @@
         "video": "https://youtu.be/bP_MZnDpbUc?si=hRhLbLEV6V_OGlUt"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/continue/logo.png",
-      "pinned": true
-    },
-    {
-      "id": "deep-tutor",
-      "name": "Deep Tutor",
-      "description": "AI-powered tutoring platform for personalized learning experiences",
-      "category": [
-        "app"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://deeptutor.knowhiz.us/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/deep-tutor/logo.png",
       "pinned": true
     },
     {
@@ -155,21 +156,6 @@
       "pinned": true
     },
     {
-      "id": "fx-chatbot",
-      "name": "Firefox Chatbot",
-      "description": "Run lemonade inside your firefox browser",
-      "category": [
-        "chat"
-      ],
-      "date_added": "2025-03-17",
-      "links": {
-        "app": "https://www.firefox.com/",
-        "guide": "https://quickthoughts.ca/posts/firefox-chatback-lemonade-sdk/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/fx-chatbot/logo.png",
-      "pinned": false
-    },
-    {
       "id": "codegpt",
       "name": "CodeGPT",
       "description": "AI coding assistant for VS Code with local LLM support",
@@ -182,6 +168,20 @@
         "guide": "https://lemonade-server.ai/docs/server/apps/codeGPT/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/codegpt/logo.png",
+      "pinned": false
+    },
+    {
+      "id": "deep-tutor",
+      "name": "Deep Tutor",
+      "description": "AI-powered tutoring platform for personalized learning experiences",
+      "category": [
+        "app"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://deeptutor.knowhiz.us/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/deep-tutor/logo.png",
       "pinned": false
     },
     {
