@@ -1,6 +1,6 @@
 {
   "id": "fx-chatbot",
-  "name": "Firefox Chatbot Integration",
+  "name": "Firefox Chatbot",
   "description": "Run lemonade inside your firefox browser",
   "category": ["chat"],
   "date_added": "2025-03-17",
