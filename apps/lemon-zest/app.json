@@ -1,0 +1,12 @@
+{
+  "id": "lemon-zest",
+  "name": "Lemon Zest",
+  "description": "Open source image editor using a local stable diffusion model",
+  "category": ["creative", "app"],
+  "date_added": "2026-03-18",
+  "links": {
+    "app": "https://github.com/Phqen1x/lemon-zest",
+    "guide": "https://lemonade-server.ai/docs/server/apps/lemon-zest.md",
+    "video": "https://youtu.be/XMtEJzPKcLE"
+  }
+}
