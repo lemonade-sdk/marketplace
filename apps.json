@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-03-18T23:28:19.283102+00:00",
+  "generated": "2026-03-25T18:33:08.716113+00:00",
   "apps": [
     {
       "id": "fx-chatbot",
@@ -154,6 +154,23 @@
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/openhands/logo.png",
       "pinned": true
+    },
+    {
+      "id": "lemon-zest",
+      "name": "Lemon Zest",
+      "description": "Open source image editor using a local stable diffusion model",
+      "category": [
+        "creative",
+        "app"
+      ],
+      "date_added": "2026-03-18",
+      "links": {
+        "app": "https://github.com/Phqen1x/lemon-zest",
+        "guide": "https://lemonade-server.ai/docs/server/apps/lemon-zest.md",
+        "video": "https://youtu.be/XMtEJzPKcLE"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/lemon-zest/logo.png",
+      "pinned": false
     },
     {
       "id": "codegpt",
