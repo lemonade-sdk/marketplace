@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Lemon body gradient: top-left lighter yellow to bottom-right deeper orange-yellow -->
+    <linearGradient id="lemonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FFE566"/>
+      <stop offset="100%" stop-color="#F5A623"/>
+    </linearGradient>
+
+    <!-- Leaf gradient: darker green at stem, lighter at tip -->
+    <linearGradient id="leafGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3D8B2A"/>
+      <stop offset="100%" stop-color="#5DB83A"/>
+    </linearGradient>
+
+    <!-- Lemon drop shadow / depth glow -->
+    <filter id="lemonShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5"
+                    flood-color="#8B5E00" flood-opacity="0.38"/>
+    </filter>
+
+    <!-- Microphone drop shadow so it reads against the yellow lemon -->
+    <filter id="micShadow" x="-30%" y="-20%" width="160%" height="150%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.8"
+                    flood-color="#000000" flood-opacity="0.48"/>
+    </filter>
+
+    <!-- Clip path for microphone capsule grille lines -->
+    <clipPath id="capsuleClip">
+      <rect x="27" y="19" width="12" height="17" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- ══════════════════════════════════════════
+       LEMON BODY
+       Organic oval shape: left side rounder (stem/leaf side),
+       right side slightly pointier (blossom end).
+       Path spans x:10→57, y:13→57, center ~(33,35).
+  ══════════════════════════════════════════ -->
+  <path id="lemon-body"
+        d="M 10,35
+           C 10,22 19,13 32,13
+           C 42,13 53,20 57,35
+           C 53,50 42,57 32,57
+           C 19,57 10,48 10,35 Z"
+        fill="url(#lemonGradient)"
+        filter="url(#lemonShadow)"/>
+
+  <!-- Specular highlight: white semi-transparent ellipse, top-left quadrant -->
+  <ellipse cx="22" cy="23" rx="10" ry="6"
+           fill="white" opacity="0.30"
+           transform="rotate(-32,22,23)"/>
+
+  <!-- ══════════════════════════════════════════
+       LEAF — attaches at upper-left of lemon.
+       Sweeps from stem point (12,22) up to tip (22,7).
+  ══════════════════════════════════════════ -->
+  <path id="leaf"
+        d="M 12,22
+           C 6,14 14,5 22,7
+           C 29,9 24,19 12,22 Z"
+        fill="url(#leafGradient)"/>
+
+  <!-- Leaf center vein -->
+  <line x1="12" y1="22" x2="22" y2="7"
+        stroke="#2E6B1E" stroke-width="0.8"
+        stroke-linecap="round" opacity="0.55"/>
+
+  <!-- ══════════════════════════════════════════
+       MICROPHONE — centered on lemon face.
+       White fill/stroke with drop shadow so it
+       reads clearly against the yellow background.
+
+       Components:
+         1. Capsule (rounded-rect body)
+         2. Grille lines (mesh texture)
+         3. U-arc bracket
+         4. Vertical pole
+         5. Horizontal base foot
+  ══════════════════════════════════════════ -->
+  <g id="microphone" filter="url(#micShadow)">
+
+    <!-- 1. Capsule body -->
+    <rect id="mic-capsule"
+          x="27" y="19" width="12" height="17" rx="6"
+          fill="white"/>
+
+    <!-- 2. Grille lines clipped inside capsule -->
+    <g clip-path="url(#capsuleClip)" opacity="0.50">
+      <line x1="28" y1="25" x2="38" y2="25"
+            stroke="#999999" stroke-width="0.9"/>
+      <line x1="28" y1="28" x2="38" y2="28"
+            stroke="#999999" stroke-width="0.9"/>
+      <line x1="28" y1="31" x2="38" y2="31"
+            stroke="#999999" stroke-width="0.9"/>
+    </g>
+
+    <!-- 3. U-arc bracket (connects capsule bottom to pole) -->
+    <path id="mic-arc"
+          d="M 27,35 Q 27,44 33,44 Q 39,44 39,35"
+          fill="none"
+          stroke="white" stroke-width="3"
+          stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- 4. Vertical pole -->
+    <line id="mic-pole"
+          x1="33" y1="44" x2="33" y2="51"
+          stroke="white" stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- 5. Horizontal base foot -->
+    <line id="mic-base"
+          x1="22" y1="52" x2="44" y2="52"
+          stroke="white" stroke-width="3"
+          stroke-linecap="round"/>
+
+  </g>
+
+</svg>
