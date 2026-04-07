@@ -1,0 +1,11 @@
+{
+  "id": "Claude Code",
+  "name": "Claude Code",
+  "description": "Agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools",
+  "category": ["code"],
+  "date_added": "2026-04-07",
+  "links": {
+    "app": "https://code.claude.com/docs/en/overview",
+    "guide": "https://lemonade-server.ai/docs/server/apps/claude-code/"
+  }
+}
