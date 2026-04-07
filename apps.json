@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-03-25T19:59:10.668411+00:00",
+  "generated": "2026-04-07T16:42:49.657919+00:00",
   "apps": [
     {
       "id": "fx-chatbot",
@@ -154,6 +154,21 @@
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/openhands/logo.png",
       "pinned": true
+    },
+    {
+      "id": "Claude Code",
+      "name": "Claude Code",
+      "description": "Agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools",
+      "category": [
+        "code"
+      ],
+      "date_added": "2026-04-07",
+      "links": {
+        "app": "https://code.claude.com/docs/en/overview",
+        "guide": "https://lemonade-server.ai/docs/server/apps/claude-code/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/claude-code/logo.png",
+      "pinned": false
     },
     {
       "id": "lemon-zest",
