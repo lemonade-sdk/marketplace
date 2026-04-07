@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-07T16:42:49.657919+00:00",
+  "generated": "2026-04-07T16:43:35.424445+00:00",
   "apps": [
     {
       "id": "fx-chatbot",
@@ -30,22 +30,6 @@
         "guide": "https://lemonade-server.ai/docs/server/apps/anythingLLM/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/anythingllm/logo.png",
-      "pinned": true
-    },
-    {
-      "id": "continue",
-      "name": "Continue",
-      "description": "Open-source AI code assistant for VS Code and JetBrains",
-      "category": [
-        "code"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://www.continue.dev/",
-        "guide": "https://lemonade-server.ai/docs/server/apps/continue/",
-        "video": "https://youtu.be/bP_MZnDpbUc?si=hRhLbLEV6V_OGlUt"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/continue/logo.png",
       "pinned": true
     },
     {
@@ -200,6 +184,22 @@
         "guide": "https://lemonade-server.ai/docs/server/apps/codeGPT/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/codegpt/logo.png",
+      "pinned": false
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "description": "Open-source AI code assistant for VS Code and JetBrains",
+      "category": [
+        "code"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://www.continue.dev/",
+        "guide": "https://lemonade-server.ai/docs/server/apps/continue/",
+        "video": "https://youtu.be/bP_MZnDpbUc?si=hRhLbLEV6V_OGlUt"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/continue/logo.png",
       "pinned": false
     },
     {
