@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-07T16:49:36.115983+00:00",
+  "generated": "2026-04-20T15:49:02.356959+00:00",
   "apps": [
     {
       "id": "Claude Code",
@@ -106,6 +106,35 @@
         "app": "https://github.com/lemonade-sdk/infinity-arcade"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/infinity-arcade/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "iterate-ai",
+      "name": "Iterate.ai",
+      "description": "Enterprise AI platform for building and deploying AI solutions",
+      "category": [
+        "automation"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://www.iterate.ai/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/iterate-ai/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "morphik",
+      "name": "Morphik",
+      "description": "Centralize business knowledge and build reliable AI agents to automate tasks",
+      "category": [
+        "app"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://www.morphik.ai/",
+        "guide": "https://www.morphik.ai/docs/local-inference#lemonade"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/morphik/logo.png",
       "pinned": true
     },
     {
@@ -231,20 +260,6 @@
       "pinned": false
     },
     {
-      "id": "iterate-ai",
-      "name": "Iterate.ai",
-      "description": "Enterprise AI platform for building and deploying AI solutions",
-      "category": [
-        "automation"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://www.iterate.ai/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/iterate-ai/logo.png",
-      "pinned": false
-    },
-    {
       "id": "ai-dev-gallery",
       "name": "Microsoft AI Dev Gallery",
       "description": "Microsoft's showcase application for exploring AI capabilities",
@@ -273,21 +288,6 @@
         "video": "https://youtu.be/JecpotOZ6qo?si=WxWVQhUBCJQgE6vX"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/ai-toolkit/logo.png",
-      "pinned": false
-    },
-    {
-      "id": "morphik",
-      "name": "Morphik",
-      "description": "Centralize business knowledge and build reliable AI agents to automate tasks",
-      "category": [
-        "app"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://www.morphik.ai/",
-        "guide": "https://www.morphik.ai/docs/local-inference#lemonade"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/morphik/logo.png",
       "pinned": false
     },
     {
