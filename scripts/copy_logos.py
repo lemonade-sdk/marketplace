@@ -31,7 +31,6 @@ LOGO_SOURCES = {
     "hugging-face": ASSETS_MARKETPLACE / "hugging_face.png",
     # From partner_logos
     "ai-toolkit": ASSETS_PARTNER / "ai_toolkit.png",
-    "ai-dev-gallery": ASSETS_PARTNER / "ai_dev_gallery.webp",
     "anythingllm": ASSETS_PARTNER / "anything_llm.png",
     "codegpt": ASSETS_PARTNER / "codegpt.jpg",
 }
