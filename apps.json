@@ -260,21 +260,6 @@
       "pinned": false
     },
     {
-      "id": "ai-dev-gallery",
-      "name": "Microsoft AI Dev Gallery",
-      "description": "Microsoft's showcase application for exploring AI capabilities",
-      "category": [
-        "app"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://aka.ms/ai-dev-gallery",
-        "guide": "https://lemonade-server.ai/docs/server/apps/ai-dev-gallery/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/ai-dev-gallery/logo.png",
-      "pinned": false
-    },
-    {
       "id": "ai-toolkit",
       "name": "Microsoft AI Toolkit",
       "description": "Experiment at scale with LLMs in a VS Code extension",
