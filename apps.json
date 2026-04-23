@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-20T15:49:02.356959+00:00",
+  "generated": "2026-04-23T16:21:47.129841+00:00",
   "apps": [
     {
       "id": "Claude Code",
@@ -146,8 +146,8 @@
       ],
       "date_added": "2025-02-05",
       "links": {
-        "app": "https://n8n.io/",
-        "guide": "https://n8n.io/integrations/lemonade-model/"
+        "app": "https://n8n.io/integrations/lemonade-model/",
+        "guide": "https://developer.amd.com/playbooks/n8n-automation-gpt-oss/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/n8n/logo.png",
       "pinned": true
