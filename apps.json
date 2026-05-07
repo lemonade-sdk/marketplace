@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-23T20:47:11.950814+00:00",
+  "generated": "2026-05-07T00:25:28.270852+00:00",
   "apps": [
     {
       "id": "Claude Code",
@@ -276,17 +276,17 @@
       "pinned": false
     },
     {
-      "id": "perplexica",
-      "name": "Perplexica",
+      "id": "vane",
+      "name": "Vane",
       "description": "Open-source AI search engine with local LLM support",
       "category": [
         "chat"
       ],
       "date_added": "2025-02-05",
       "links": {
-        "app": "https://github.com/ItzCrazyKns/Perplexica"
+        "app": "https://github.com/ItzCrazyKns/Vane"
       },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/perplexica/logo.png",
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/vane/logo.png",
       "pinned": false
     }
   ],
