@@ -27,7 +27,7 @@ LOGO_SOURCES = {
     "dify": ASSETS_MARKETPLACE / "dify.png",
     "deep-tutor": ASSETS_MARKETPLACE / "deep_tutor.png",
     "iterate-ai": ASSETS_MARKETPLACE / "iterate_ai.png",
-    "perplexica": ASSETS_MARKETPLACE / "perplexica.png",
+    "vane": ASSETS_MARKETPLACE / "perplexica.png",
     "hugging-face": ASSETS_MARKETPLACE / "hugging_face.png",
     # From partner_logos
     "ai-toolkit": ASSETS_PARTNER / "ai_toolkit.png",
