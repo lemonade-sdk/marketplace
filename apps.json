@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-23T20:47:11.950814+00:00",
+  "generated": "2026-05-08T19:27:58.489129+00:00",
   "apps": [
     {
       "id": "Claude Code",
@@ -12,7 +12,7 @@
       "date_added": "2026-04-07",
       "links": {
         "app": "https://code.claude.com/docs/en/overview",
-        "guide": "https://lemonade-server.ai/docs/server/apps/claude-code/"
+        "guide": "https://lemonade-server.ai/docs/integrations/claude-code/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/claude-code/logo.png",
       "pinned": true
@@ -42,7 +42,7 @@
       "date_added": "2025-02-05",
       "links": {
         "app": "https://anythingllm.com/",
-        "guide": "https://lemonade-server.ai/docs/server/apps/anythingLLM/"
+        "guide": "https://lemonade-server.ai/docs/integrations/anythingLLM/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/anythingllm/logo.png",
       "pinned": true
@@ -162,7 +162,7 @@
       "date_added": "2025-02-05",
       "links": {
         "app": "https://github.com/open-webui/open-webui",
-        "guide": "https://lemonade-server.ai/docs/server/apps/open-webui/",
+        "guide": "https://lemonade-server.ai/docs/integrations/open-webui/",
         "video": "https://www.youtube.com/watch?v=yZs-Yzl736E"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/open-webui/logo.png",
@@ -178,7 +178,7 @@
       "date_added": "2025-02-05",
       "links": {
         "app": "https://openhands.dev/",
-        "guide": "https://lemonade-server.ai/docs/server/apps/open-hands/"
+        "guide": "https://lemonade-server.ai/docs/integrations/open-hands/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/openhands/logo.png",
       "pinned": true
@@ -194,7 +194,7 @@
       "date_added": "2026-03-18",
       "links": {
         "app": "https://github.com/Phqen1x/lemon-zest",
-        "guide": "https://github.com/lemonade-sdk/lemonade/blob/main/docs/server/apps/lemon-zest.md",
+        "guide": "https://lemonade-server.ai/docs/integrations/lemon-zest",
         "video": "https://youtu.be/XMtEJzPKcLE"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/lemon-zest/logo.png",
@@ -210,7 +210,7 @@
       "date_added": "2025-02-05",
       "links": {
         "app": "https://codegpt.co/",
-        "guide": "https://lemonade-server.ai/docs/server/apps/codeGPT/"
+        "guide": "https://lemonade-server.ai/docs/integrations/codeGPT/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/codegpt/logo.png",
       "pinned": false
@@ -225,7 +225,7 @@
       "date_added": "2025-02-05",
       "links": {
         "app": "https://www.continue.dev/",
-        "guide": "https://lemonade-server.ai/docs/server/apps/continue/",
+        "guide": "https://lemonade-server.ai/docs/integrations/continue/",
         "video": "https://youtu.be/bP_MZnDpbUc?si=hRhLbLEV6V_OGlUt"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/continue/logo.png",
@@ -269,7 +269,7 @@
       "date_added": "2025-02-05",
       "links": {
         "app": "https://learn.microsoft.com/en-us/windows/ai/toolkit/",
-        "guide": "https://lemonade-server.ai/docs/server/apps/ai-toolkit/",
+        "guide": "https://lemonade-server.ai/docs/integrations/ai-toolkit/",
         "video": "https://youtu.be/JecpotOZ6qo?si=WxWVQhUBCJQgE6vX"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/ai-toolkit/logo.png",
