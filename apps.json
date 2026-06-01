@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-05-08T19:27:58.489129+00:00",
+  "generated": "2026-06-01T19:12:55.729896+00:00",
   "apps": [
     {
       "id": "Claude Code",
@@ -182,6 +182,39 @@
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/openhands/logo.png",
       "pinned": true
+    },
+    {
+      "id": "listenr",
+      "name": "Listenr",
+      "description": "Record, transcribe, and fine-tune your own audio models — all locally, powered by Lemonade.",
+      "category": [
+        "automation"
+      ],
+      "date_added": "2026-06-01",
+      "links": {
+        "app": "https://github.com/Rebreda/listenr",
+        "guide": "https://quickthoughts.ca/posts/listenr-asr-training-data-problem"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/listenr/logo.png",
+      "pinned": false
+    },
+    {
+      "id": "dream-server",
+      "name": "Dream Server",
+      "description": "Private local AI server for chat, agents, RAG, workflows, and self-hosted apps, with Lemonade-backed AMD inference support",
+      "category": [
+        "app",
+        "automation",
+        "chat"
+      ],
+      "date_added": "2026-05-31",
+      "links": {
+        "app": "https://github.com/Light-Heart-Labs/DreamServer",
+        "guide": "https://github.com/Light-Heart-Labs/DreamServer/blob/main/dream-server/docs/LEMONADE-SDK-COMPAT.md",
+        "video": "https://youtu.be/nO8xFNHX-HA?si=Z7Hxf0Le6EV-atA6"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/dream-server/logo.png",
+      "pinned": false
     },
     {
       "id": "lemon-zest",
