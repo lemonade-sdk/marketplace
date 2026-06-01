@@ -1,0 +1,11 @@
+{
+  "id": "listenr",
+  "name": "Listenr",
+  "description": "Record, transcribe, and fine-tune your own audio models — all locally, powered by Lemonade.",
+  "category": ["automation"],
+  "date_added": "2026-06-01",
+  "links": {
+    "app": "https://github.com/Rebreda/listenr",
+    "guide": "https://quickthoughts.ca/posts/listenr-asr-training-data-problem"
+  }
+}
