@@ -1,7 +1,36 @@
 {
   "version": "1.0",
-  "generated": "2026-06-01T19:12:55.729896+00:00",
+  "generated": "2026-06-22T15:06:34.287539+00:00",
   "apps": [
+    {
+      "id": "lemonade-mobile",
+      "name": "Lemonade Mobile",
+      "description": "iOS and Android chat app for your self-hosted Lemonade server",
+      "category": [
+        "chat"
+      ],
+      "date_added": "2026-06-22",
+      "links": {
+        "app": "https://github.com/lemonade-sdk/lemonade-mobile"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/lemonade-mobile/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "pi",
+      "name": "Pi",
+      "description": "Minimal terminal-based coding agent using local models via Lemonade",
+      "category": [
+        "code"
+      ],
+      "date_added": "2026-06-22",
+      "links": {
+        "app": "https://pi.dev/",
+        "guide": "https://lemonade-server.ai/docs/integrations/pi/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/pi/logo.png",
+      "pinned": true
+    },
     {
       "id": "Claude Code",
       "name": "Claude Code",
@@ -109,20 +138,6 @@
       "pinned": true
     },
     {
-      "id": "iterate-ai",
-      "name": "Iterate.ai",
-      "description": "Enterprise AI platform for building and deploying AI solutions",
-      "category": [
-        "automation"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://www.iterate.ai/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/iterate-ai/logo.png",
-      "pinned": true
-    },
-    {
       "id": "morphik",
       "name": "Morphik",
       "description": "Centralize business knowledge and build reliable AI agents to automate tasks",
@@ -166,21 +181,6 @@
         "video": "https://www.youtube.com/watch?v=yZs-Yzl736E"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/open-webui/logo.png",
-      "pinned": true
-    },
-    {
-      "id": "openhands",
-      "name": "OpenHands",
-      "description": "AI-powered software development agent that can write code, fix bugs, and more",
-      "category": [
-        "code"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://openhands.dev/",
-        "guide": "https://lemonade-server.ai/docs/integrations/open-hands/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/openhands/logo.png",
       "pinned": true
     },
     {
@@ -249,22 +249,6 @@
       "pinned": false
     },
     {
-      "id": "continue",
-      "name": "Continue",
-      "description": "Open-source AI code assistant for VS Code and JetBrains",
-      "category": [
-        "code"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://www.continue.dev/",
-        "guide": "https://lemonade-server.ai/docs/integrations/continue/",
-        "video": "https://youtu.be/bP_MZnDpbUc?si=hRhLbLEV6V_OGlUt"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/continue/logo.png",
-      "pinned": false
-    },
-    {
       "id": "deep-tutor",
       "name": "Deep Tutor",
       "description": "AI-powered tutoring platform for personalized learning experiences",
@@ -293,6 +277,20 @@
       "pinned": false
     },
     {
+      "id": "iterate-ai",
+      "name": "Iterate.ai",
+      "description": "Enterprise AI platform for building and deploying AI solutions",
+      "category": [
+        "automation"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://www.iterate.ai/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/iterate-ai/logo.png",
+      "pinned": false
+    },
+    {
       "id": "ai-toolkit",
       "name": "Microsoft AI Toolkit",
       "description": "Experiment at scale with LLMs in a VS Code extension",
@@ -306,6 +304,21 @@
         "video": "https://youtu.be/JecpotOZ6qo?si=WxWVQhUBCJQgE6vX"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/ai-toolkit/logo.png",
+      "pinned": false
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "description": "AI-powered software development agent that can write code, fix bugs, and more",
+      "category": [
+        "code"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://openhands.dev/",
+        "guide": "https://lemonade-server.ai/docs/integrations/open-hands/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/openhands/logo.png",
       "pinned": false
     },
     {
