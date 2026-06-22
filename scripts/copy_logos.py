@@ -21,7 +21,6 @@ LOGO_SOURCES = {
     "n8n": ASSETS_MARKETPLACE / "n8n.png",
     "gaia": ASSETS_MARKETPLACE / "gaia.png",
     "infinity-arcade": ASSETS_MARKETPLACE / "infinity_arcade.png",
-    "continue": ASSETS_MARKETPLACE / "continue.png",
     "github-copilot": ASSETS_MARKETPLACE / "github_copilot.png",
     "openhands": ASSETS_MARKETPLACE / "openhands.png",
     "dify": ASSETS_MARKETPLACE / "dify.png",

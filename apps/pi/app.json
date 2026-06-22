@@ -1,0 +1,11 @@
+{
+  "id": "pi",
+  "name": "Pi",
+  "description": "Minimal terminal-based coding agent using local models via Lemonade",
+  "category": ["code"],
+  "date_added": "2026-06-22",
+  "links": {
+    "app": "https://pi.dev/",
+    "guide": "https://lemonade-server.ai/docs/integrations/pi/"
+  }
+}

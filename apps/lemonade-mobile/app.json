@@ -1,0 +1,10 @@
+{
+  "id": "lemonade-mobile",
+  "name": "Lemonade Mobile",
+  "description": "iOS and Android chat app for your self-hosted Lemonade server",
+  "category": ["chat"],
+  "date_added": "2026-06-22",
+  "links": {
+    "app": "https://github.com/lemonade-sdk/lemonade-mobile"
+  }
+}
