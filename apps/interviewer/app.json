@@ -1,0 +1,11 @@
+{
+  "id": "interviewer",
+  "name": "Interviewer",
+  "description": "AI-powered interview practice application with voice-enabled mock sessions",
+  "category": ["app", "chat"],
+  "date_added": "2026-03-14",
+  "links": {
+    "app": "https://github.com/lemonade-sdk/interviewer",
+    "guide": "https://lemonade-server.ai/docs/server/apps/interviewer/"
+  }
+}
