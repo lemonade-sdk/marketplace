@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-22T15:06:34.287539+00:00",
+  "generated": "2026-06-24T01:28:40.049803+00:00",
   "apps": [
     {
       "id": "lemonade-mobile",
@@ -231,6 +231,22 @@
         "video": "https://youtu.be/XMtEJzPKcLE"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/lemon-zest/logo.png",
+      "pinned": false
+    },
+    {
+      "id": "interviewer",
+      "name": "Interviewer",
+      "description": "AI-powered interview practice application with voice-enabled mock sessions",
+      "category": [
+        "app",
+        "chat"
+      ],
+      "date_added": "2026-03-14",
+      "links": {
+        "app": "https://github.com/lemonade-sdk/interviewer",
+        "guide": "https://lemonade-server.ai/docs/server/apps/interviewer/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/interviewer/logo.png",
       "pinned": false
     },
     {
