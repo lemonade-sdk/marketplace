@@ -1,64 +1,36 @@
 {
   "version": "1.0",
-  "generated": "2026-06-24T01:28:40.049803+00:00",
+  "generated": "2026-06-25T16:53:54.634265+00:00",
   "apps": [
     {
-      "id": "lemonade-mobile",
-      "name": "Lemonade Mobile",
-      "description": "iOS and Android chat app for your self-hosted Lemonade server",
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "description": "Feature-rich web interface for chatting with LLMs locally",
       "category": [
         "chat"
       ],
-      "date_added": "2026-06-22",
+      "date_added": "2025-02-05",
       "links": {
-        "app": "https://github.com/lemonade-sdk/lemonade-mobile"
+        "app": "https://github.com/open-webui/open-webui",
+        "guide": "https://lemonade-server.ai/docs/integrations/open-webui/",
+        "video": "https://www.youtube.com/watch?v=yZs-Yzl736E"
       },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/lemonade-mobile/logo.png",
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/open-webui/logo.png",
       "pinned": true
     },
     {
-      "id": "pi",
-      "name": "Pi",
-      "description": "Minimal terminal-based coding agent using local models via Lemonade",
+      "id": "n8n",
+      "name": "n8n",
+      "description": "Workflow automation platform with native Lemonade integration for AI-powered automations",
       "category": [
-        "code"
+        "automation"
       ],
-      "date_added": "2026-06-22",
+      "date_added": "2025-02-05",
       "links": {
-        "app": "https://pi.dev/",
-        "guide": "https://lemonade-server.ai/docs/integrations/pi/"
+        "app": "https://n8n.io/integrations/lemonade-model/",
+        "guide": "https://developer.amd.com/playbooks/n8n-automation-gpt-oss/"
       },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/pi/logo.png",
-      "pinned": true
-    },
-    {
-      "id": "Claude Code",
-      "name": "Claude Code",
-      "description": "Agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools",
-      "category": [
-        "code"
-      ],
-      "date_added": "2026-04-07",
-      "links": {
-        "app": "https://code.claude.com/docs/en/overview",
-        "guide": "https://lemonade-server.ai/docs/integrations/claude-code/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/claude-code/logo.png",
-      "pinned": true
-    },
-    {
-      "id": "fx-chatbot",
-      "name": "Firefox Chatbot",
-      "description": "Run lemonade inside your firefox browser",
-      "category": [
-        "chat"
-      ],
-      "date_added": "2025-03-17",
-      "links": {
-        "app": "https://www.firefox.com/",
-        "guide": "https://quickthoughts.ca/posts/firefox-chatback-lemonade-sdk/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/fx-chatbot/logo.png",
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/n8n/logo.png",
       "pinned": true
     },
     {
@@ -74,21 +46,6 @@
         "guide": "https://lemonade-server.ai/docs/integrations/anythingLLM/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/anythingllm/logo.png",
-      "pinned": true
-    },
-    {
-      "id": "dify",
-      "name": "Dify",
-      "description": "Build node-based AI agents and RAG workflows",
-      "category": [
-        "automation"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://dify.ai/",
-        "guide": "https://marketplace.dify.ai/plugins/langgenius/lemonade"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/dify/logo.png",
       "pinned": true
     },
     {
@@ -108,6 +65,35 @@
       "pinned": true
     },
     {
+      "id": "infinity-arcade",
+      "name": "Infinity Arcade",
+      "description": "Generate and play infinite remixes of retro-style arcade games",
+      "category": [
+        "creative"
+      ],
+      "date_added": "2025-02-05",
+      "links": {
+        "app": "https://github.com/lemonade-sdk/infinity-arcade"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/infinity-arcade/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "Claude Code",
+      "name": "Claude Code",
+      "description": "Agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools",
+      "category": [
+        "code"
+      ],
+      "date_added": "2026-04-07",
+      "links": {
+        "app": "https://code.claude.com/docs/en/overview",
+        "guide": "https://lemonade-server.ai/docs/integrations/claude-code/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/claude-code/logo.png",
+      "pinned": true
+    },
+    {
       "id": "github-copilot",
       "name": "GitHub Copilot",
       "description": "VS Code Copilot Extension for local AI coding assistance",
@@ -124,17 +110,62 @@
       "pinned": true
     },
     {
-      "id": "infinity-arcade",
-      "name": "Infinity Arcade",
-      "description": "Generate and play infinite remixes of retro-style arcade games",
+      "id": "pi",
+      "name": "Pi",
+      "description": "Minimal terminal-based coding agent using local models via Lemonade",
       "category": [
-        "creative"
+        "code"
+      ],
+      "date_added": "2026-06-22",
+      "links": {
+        "app": "https://pi.dev/",
+        "guide": "https://lemonade-server.ai/docs/integrations/pi/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/pi/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "description": "Build node-based AI agents and RAG workflows",
+      "category": [
+        "automation"
       ],
       "date_added": "2025-02-05",
       "links": {
-        "app": "https://github.com/lemonade-sdk/infinity-arcade"
+        "app": "https://dify.ai/",
+        "guide": "https://marketplace.dify.ai/plugins/langgenius/lemonade"
       },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/infinity-arcade/logo.png",
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/dify/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "fx-chatbot",
+      "name": "Firefox Chatbot",
+      "description": "Run lemonade inside your firefox browser",
+      "category": [
+        "chat"
+      ],
+      "date_added": "2025-03-17",
+      "links": {
+        "app": "https://www.firefox.com/",
+        "guide": "https://quickthoughts.ca/posts/firefox-chatback-lemonade-sdk/"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/fx-chatbot/logo.png",
+      "pinned": true
+    },
+    {
+      "id": "lemonade-mobile",
+      "name": "Lemonade Mobile",
+      "description": "iOS and Android chat app for your self-hosted Lemonade server",
+      "category": [
+        "chat"
+      ],
+      "date_added": "2026-06-22",
+      "links": {
+        "app": "https://github.com/lemonade-sdk/lemonade-mobile"
+      },
+      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/lemonade-mobile/logo.png",
       "pinned": true
     },
     {
@@ -150,37 +181,6 @@
         "guide": "https://www.morphik.ai/docs/local-inference#lemonade"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/morphik/logo.png",
-      "pinned": true
-    },
-    {
-      "id": "n8n",
-      "name": "n8n",
-      "description": "Workflow automation platform with native Lemonade integration for AI-powered automations",
-      "category": [
-        "automation"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://n8n.io/integrations/lemonade-model/",
-        "guide": "https://developer.amd.com/playbooks/n8n-automation-gpt-oss/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/n8n/logo.png",
-      "pinned": true
-    },
-    {
-      "id": "open-webui",
-      "name": "Open WebUI",
-      "description": "Feature-rich web interface for chatting with LLMs locally",
-      "category": [
-        "chat"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://github.com/open-webui/open-webui",
-        "guide": "https://lemonade-server.ai/docs/integrations/open-webui/",
-        "video": "https://www.youtube.com/watch?v=yZs-Yzl736E"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/open-webui/logo.png",
       "pinned": true
     },
     {
