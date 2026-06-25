@@ -64,23 +64,27 @@ def find_logo(app_dir: Path) -> str | None:
     return None
 
 
-def load_pinned_apps(repo_root: Path) -> set[str]:
-    """Load the list of pinned app IDs from pinned.json."""
+def load_pinned_apps(repo_root: Path) -> list[str]:
+    """Load the ordered list of pinned app IDs from pinned.json.
+
+    Order is significant: it defines the display order of pinned apps (the
+    order they were pinned), not date order.
+    """
     pinned_path = repo_root / "pinned.json"
     if not pinned_path.exists():
         print(f"[WARN] No pinned.json found at {pinned_path}")
-        return set()
-    
+        return []
+
     try:
         with open(pinned_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return set(data.get("pinned", []))
+        return list(data.get("pinned", []))
     except (json.JSONDecodeError, KeyError) as e:
         print(f"[WARN] Error reading pinned.json: {e}")
-        return set()
+        return []
 
 
-def build_apps_json(apps_dir: Path, output_path: Path, pinned_ids: set[str]) -> bool:
+def build_apps_json(apps_dir: Path, output_path: Path, pinned_ids: list[str]) -> bool:
     """Build the apps.json file from individual app.json files."""
     apps = []
     errors = []
@@ -130,9 +134,15 @@ def build_apps_json(apps_dir: Path, output_path: Path, pinned_ids: set[str]) -> 
             print(f"   - {err}")
         return False
     
-    # Sort: pinned apps first, then by date_added (newest first), then alphabetically by name
+    # Pinned apps come first, in the order they appear in pinned.json (the order
+    # they were pinned). Everything else follows, by date_added (newest first),
+    # then alphabetically by name.
+    pin_rank = {app_id: index for index, app_id in enumerate(pinned_ids)}
+
     def sort_key(app):
         is_pinned = 0 if app.get("pinned") else 1
+        # Within the pinned group, rank by pinned.json position.
+        pin_order = pin_rank.get(app.get("id"), len(pin_rank))
         # Parse date for sorting (newer dates should come first, so negate)
         date_str = app.get("date_added", "1970-01-01")
         try:
@@ -142,7 +152,7 @@ def build_apps_json(apps_dir: Path, output_path: Path, pinned_ids: set[str]) -> 
         except ValueError:
             date_sort = 0
         name = app.get("name", "").lower()
-        return (is_pinned, date_sort, name)
+        return (is_pinned, pin_order, date_sort, name)
     
     apps.sort(key=sort_key)
     
