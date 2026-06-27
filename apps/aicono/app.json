@@ -1,0 +1,10 @@
+{
+  "id": "aicono-desktop-organizer",
+  "name": "Aicono",
+  "description": "Windows desktop icon organizer with native Lemonade integration for AI semantic grouping.",
+  "category": ["code"],
+  "date_added": "2025-02-06",
+  "links": {
+    "app": "https://tetramatrix.github.io/Aicono/"
+  }
+}
