@@ -34,7 +34,7 @@ marketplace/
   "date_added": "2025-02-05",
   "links": {
     "app": "https://your-app-url.com",
-    "guide": "https://lemonade-server.ai/docs/server/apps/your-app/",
+    "guide": "https://lemonade-server.ai/docs/integrations/your-app/",
     "video": "https://youtube.com/watch?v=..."
   }
 }
