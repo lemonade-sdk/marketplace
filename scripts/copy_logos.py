@@ -24,7 +24,6 @@ LOGO_SOURCES = {
     "github-copilot": ASSETS_MARKETPLACE / "github_copilot.png",
     "openhands": ASSETS_MARKETPLACE / "openhands.png",
     "dify": ASSETS_MARKETPLACE / "dify.png",
-    "deep-tutor": ASSETS_MARKETPLACE / "deep_tutor.png",
     "iterate-ai": ASSETS_MARKETPLACE / "iterate_ai.png",
     "vane": ASSETS_MARKETPLACE / "perplexica.png",
     "hugging-face": ASSETS_MARKETPLACE / "hugging_face.png",
