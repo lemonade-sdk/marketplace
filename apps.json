@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-08-17T17:43:16.769838+00:00",
+  "generated": "2026-09-24T17:07:44.527011+00:00",
   "apps": [
     {
       "id": "anythingllm",
@@ -236,8 +236,8 @@
       ],
       "date_added": "2026-05-31",
       "links": {
-        "app": "https://github.com/Light-Heart-Labs/DreamServer",
-        "guide": "https://github.com/Light-Heart-Labs/DreamServer/blob/main/dream-server/docs/LEMONADE-SDK-COMPAT.md",
+        "app": "https://github.com/Osmantic/ODS",
+        "guide": "https://github.com/Osmantic/ODS/blob/main/ods/docs/LEMONADE-SDK-COMPAT.md",
         "video": "https://youtu.be/nO8xFNHX-HA?si=Z7Hxf0Le6EV-atA6"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/dream-server/logo.png",
@@ -269,7 +269,7 @@
       "date_added": "2026-03-14",
       "links": {
         "app": "https://github.com/lemonade-sdk/interviewer",
-        "guide": "https://lemonade-server.ai/docs/server/apps/interviewer/"
+        "guide": "https://lemonade-server.ai/docs/integrations/interviewer/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/interviewer/logo.png",
       "pinned": false
@@ -287,20 +287,6 @@
         "guide": "https://lemonade-server.ai/docs/integrations/codeGPT/"
       },
       "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/codegpt/logo.png",
-      "pinned": false
-    },
-    {
-      "id": "deep-tutor",
-      "name": "Deep Tutor",
-      "description": "AI-powered tutoring platform for personalized learning experiences",
-      "category": [
-        "specialized-tool"
-      ],
-      "date_added": "2025-02-05",
-      "links": {
-        "app": "https://deeptutor.knowhiz.us/"
-      },
-      "logo": "https://raw.githubusercontent.com/lemonade-sdk/marketplace/main/apps/deep-tutor/logo.png",
       "pinned": false
     },
     {
