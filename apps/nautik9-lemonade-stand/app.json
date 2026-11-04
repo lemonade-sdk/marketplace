@@ -1,7 +1,7 @@
 {
   "id": "nautik9-lemonade-stand",
   "name": "NautiK9 Lemonade Stand",
-  "description": "One page that adds more engines to the Lemonade you already run: press Set up and it installs the engine, starts it, adds it to Lemonade and asks a test question. Ternary BitNet, Ternary Bonsai 8B (CPU or Vulkan GPU) and Iced Lemon Cake today, with an adapter maker for new engines.",
+  "description": "Adds engines to the Lemonade you already run: press Set up to install, start, register and test one. Today: lemonade-burn, Ternary Bonsai 8B (CPU or Vulkan), Iced Lemon Cake, Strata, Cake, ternlight embeddings and Movidius NCS1 vision. PolyStrata and freetokens are on the way.",
   "category": ["infrastructure"],
   "date_added": "2026-10-30",
   "links": {
