@@ -1,0 +1,11 @@
+{
+  "id": "nautik9-lemonade-stand",
+  "name": "NautiK9 Lemonade Stand",
+  "description": "Adds engines to the Lemonade you already run: press Set up to install, start, register and test one. Today: lemonade-burn, Ternary Bonsai 8B (CPU or Vulkan), Iced Lemon Cake, Strata, Cake, ternlight embeddings and Movidius NCS1 vision. PolyStrata and freetokens are on the way.",
+  "category": ["infrastructure"],
+  "date_added": "2026-10-30",
+  "links": {
+    "app": "https://github.com/festeraeb/lemonade-engines",
+    "guide": "https://github.com/festeraeb/lemonade-engines#readme"
+  }
+}
